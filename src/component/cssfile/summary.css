@@ -1,0 +1,74 @@
+/* Summary Page Styles */
+.summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .summary-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-details p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .summary-details strong {
+    font-weight: bold;
+  }
+  
+  .summary-details .car-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .summary-details .car-info img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #b0d7ff;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
